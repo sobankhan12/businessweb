@@ -1,0 +1,134 @@
+.navbar {
+    background-color: #F44336 !important;
+}
+
+.navbar-brand>img {
+    /* width: "200px";
+    height: "40px"; */
+    width: 200px;
+    height: 40px;
+}
+
+.nav-link {
+    color: #fff !important;
+    font-weight: bold !important;
+}
+
+.nav-link:hover {
+    color: purple !important;
+    border-bottom: 2px solid yellow;
+}
+
+.fa-user,
+.fa-shopping-cart {
+    font-size: 25px !important;
+    color: #fff;
+}
+
+.carousel img {
+    max-height: 400px !important;
+}
+
+.services {
+    display: flex;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+h3 {
+    color: #F44336;
+}
+
+.fa-truck,
+.fa-thumbs-up,
+.fa-headphones {
+    font-size: 40px !important;
+    color: #F44336;
+    margin-right: 10px;
+}
+
+.svc1,
+.svc2,
+.svc3 {
+    width: 300px;
+    height: 80px;
+    box-shadow: 2px 4px 5px grey;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.newarrivals {
+    margin-top: 40px;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    color: #F44336;
+    align-items: center;
+    margin-bottom: 10px;
+    text-shadow: 2px 3px 4px black;
+}
+
+.card {
+    width: 230px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.card>img {
+    height: 150px;
+}
+
+.card:hover {
+    width: 250px;
+}
+
+.card-text {
+    font-weight: bold;
+    color: coral;
+}
+
+.btn-primary {
+    width: 100%;
+    background-color: #F44336;
+}
+
+.footer {
+    width: 100%;
+    background-color: #F44336;
+    height: 30px;
+}
+
+.footerhead {
+    color: #fff;
+}
+
+.footerhead>h5 {
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .svc1,
+    .svc2,
+    .svc3 {
+        width: 100%;
+    }
+    .card {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    .card:hover {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    .row {
+        justify-content: center !important;
+    }
+}
