@@ -28,5 +28,5 @@ jobs:
     - name: Install surge
       run: npm install -g surge
     - name: Run surge
-      run: surger ./ macdonalweb.surge.sh --token ${{secrets.SURGE2}}
+      run: surge ./ macdonalweb.surge.sh --token ${{secrets.SURGE2}}
        
